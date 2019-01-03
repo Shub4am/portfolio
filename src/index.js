@@ -7,12 +7,12 @@ import * as serviceWorker from './serviceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 //react router dom
-import {HashRouter} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
-    <HashRouter>
+    <BrowserRouter>
 <App />
-    </HashRouter>
+    </BrowserRouter>
  , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
