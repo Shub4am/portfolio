@@ -13,13 +13,13 @@ class Projects extends Component {
                 <div className="projects-grid">
                 {/*Project 1 */},    
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '175px', background:'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project#1
+                    <CardTitle style={{color: '#ffffff', height: '250px', background:'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project
                     </CardTitle>
-                    <CardText>
-                        Portfolio Website built using React.js.
+                    <CardText style={{color:'#000000'}}>
+                        Portfolio Website built using ReactJS
                     </CardText>
                     <CardActions border>
-                    <Button onClick="location.href='https://github.com/Shub4am/Portfolio-Website';">Github</Button>
+                    <a href="https://github.com/Shub4am/Portfolio-Website" rel="noopener noreferrer" target="_blank">Github</a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share"/>
@@ -28,9 +28,9 @@ class Projects extends Component {
 
                 {/*Project 2 */},    
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '175px', background:'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project#2
+                    <CardTitle style={{color: '#ffffff', height: '250px', background:'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project
                     </CardTitle>
-                    <CardText>
+                    <CardText style={{color:'#000000'}}>
                         StopWatch built using React.js.
                     </CardText>
                     <CardActions border>
@@ -82,7 +82,7 @@ class Projects extends Component {
                 <div className="projects-grid">
                 {/*Project 1 */},    
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '175px', background:'url(https://i.ibb.co/X7sJ7cH/js.jpg center / cover'}}>React Project#1
+                    <CardTitle style={{color: '#ff0000', height: '175px', background:'url(https://i.ibb.co/X7sJ7cH/js.jpg) center / cover'}}>React Project#1
                     </CardTitle>
                     <CardText>
                         Portfolio Website built using javascript framework React.js.
@@ -97,10 +97,10 @@ class Projects extends Component {
 
                 {/*Project 2 */},    
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '175px', background:'url(https://i.ibb.co/X7sJ7cH/js.jpg) center / cover'}}>React Project#2
+                    <CardTitle style={{color: '#ff0000', height: '175px', background:'url(https://i.ibb.co/X7sJ7cH/js.jpg) center / cover'}}>JavaScript Projects
                     </CardTitle>
                     <CardText>
-                        StopWatch built using JavaScript framework React.js.
+                        Other short projects done in JS
                     </CardText>
                     <CardActions border>
                         <Button colored>Github</Button>
@@ -116,7 +116,7 @@ class Projects extends Component {
                 <div className="projects-grid">
                 {/*Project 1*/},    
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#000', height: '175px', background:'url(https://banner2.kisspng.com/20180326/pjw/kisspng-android-studio-integrated-development-environment-studio-5ab9a802275d15.7223949015221166101612.jpg) center / cover'}}>Popular Movies App
+                    <CardTitle style={{color: '#fc5d5d', height: '175px', background:'url(https://i.ibb.co/jbhCx1x/java-logo.png) center / cover'}}>Popular Movies App
                     </CardTitle>
                     <CardText>
                     Android app that uses The MovieDB API to show the most popular, highest rated and user's favorites movies details.
@@ -124,14 +124,14 @@ class Projects extends Component {
                     <CardActions border>
                         <Button colored>Github</Button>
                     </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
+                    <CardMenu style={{color: '#000'}}>
                         <IconButton name="share"/>
                     </CardMenu>
                 </Card>
                 
                 {/*Project 2*/},    
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#000', height: '175px', background:'url(https://banner2.kisspng.com/20180326/pjw/kisspng-android-studio-integrated-development-environment-studio-5ab9a802275d15.7223949015221166101612.jpg) center / cover'}}>Blocks
+                    <CardTitle style={{color: '#fc5d5d',fontWeight: 'bolder' , height: '175px', background:'url(https://i.ibb.co/jbhCx1x/java-logo.png) center / cover'}}>Blocks
                     </CardTitle>
                     <CardText>
                     Android game that stacks 3-d cubes.
@@ -139,11 +139,10 @@ class Projects extends Component {
                     <CardActions border>
                         <Button colored>Github</Button>
                     </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
+                    <CardMenu style={{color: '#000'}}>
                         <IconButton name="share"/>
                     </CardMenu>
                 </Card>
-                
                 </div>
             )
         }
