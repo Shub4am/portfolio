@@ -55,9 +55,9 @@
 
 .social-links {
   display: flex;
-  overflow: auto;
-  justify-content: space-between;
-  width: 70%;
+  /*overflow: auto;*/
+  justify-content: center;
+  width: 60%;
   margin: auto;
 }
 
