@@ -20,8 +20,6 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                     <Button onClick="location.href='https://github.com/Shub4am/Portfolio-Website';">Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share"/>
@@ -37,8 +35,6 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share"/>
@@ -58,8 +54,6 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share"/>
@@ -75,8 +69,6 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share"/>
@@ -90,15 +82,13 @@ class Projects extends Component {
                 <div className="projects-grid">
                 {/*Project 1 */},    
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '175px', background:'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project#1
+                    <CardTitle style={{color: '#fff', height: '175px', background:'url(https://i.ibb.co/X7sJ7cH/js.jpg center / cover'}}>React Project#1
                     </CardTitle>
                     <CardText>
                         Portfolio Website built using javascript framework React.js.
                     </CardText>
                     <CardActions border>
                     <Button onClick="location.href='https://github.com/Shub4am/Portfolio-Website';">Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share"/>
@@ -107,15 +97,13 @@ class Projects extends Component {
 
                 {/*Project 2 */},    
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '175px', background:'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project#2
+                    <CardTitle style={{color: '#fff', height: '175px', background:'url(https://i.ibb.co/X7sJ7cH/js.jpg) center / cover'}}>React Project#2
                     </CardTitle>
                     <CardText>
                         StopWatch built using JavaScript framework React.js.
                     </CardText>
                     <CardActions border>
                         <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share"/>
@@ -135,8 +123,6 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share"/>
@@ -152,8 +138,6 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share"/>
