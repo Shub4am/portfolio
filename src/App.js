@@ -19,12 +19,13 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="">Home</Link>}>
-            <Navigation>
-            <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+        <Drawer>
+            <Navigation className="navbar">
+                <Link style={{textDecoration: 'none', fontSize: '18px',color: 'White', marginBottom: '30px'}} to="">Home</Link>
+                <Link style={{textDecoration: 'none', fontSize: '18px',color: 'White', marginBottom: '30px'}} to="/resume">Resume</Link>
+                <Link style={{textDecoration: 'none', fontSize: '18px',color: 'White', marginBottom: '30px'}} to="/aboutme">About Me</Link>
+                <Link style={{textDecoration: 'none', fontSize: '18px',color: 'White', marginBottom: '30px'}} to="/projects">Projects</Link>
+                <Link style={{textDecoration: 'none', fontSize: '18px',color: 'White', marginBottom: '30px'}} to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
