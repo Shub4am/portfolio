@@ -12,13 +12,13 @@ class About extends Component {
                         <hr style= {{borderTop: '3px solid #833fb2', width:'50%'}}/>
                         <h2 style={{color:'grey'}}>Developer</h2>
                         <hr style= {{borderTop: '3px solid #833fb2', width:'50%'}}/>
-                        <p>My name is Shubham Prakash, and I'm an <b>Android Application</b> and <b>Front End Web developer</b>. </p>
-                        <p>I love coding and working on mobile and web development projects.</p>
-                        <p>Currently enrolled in Term II of the Android Developer Nanodegree Program by Udacity.</p>
-                        <p>I'm interested in Machine Learning, Automation & Artificial Intelligence.</p>
+                        <p>Hello! I am Shubham Prakash, a 23 years old <b>Front End</b> and an <b>Android Application Developer</b> living in Bengaluru,IN <img src="blank.gif" class="flag flag-in" alt=''/></p>
+                        <p>I'm passionate about coding! & working on challenging Projects that help me learn new skills.</p>
+                        <p>Currently enrolled in Term II of the Android Developer Nanodegree Program by Udacity and Google.</p>
+                        <p>Fasinated by Machine Learning, Automation, New Technologies & Artificial Intelligence.</p>
                         <hr style= {{borderTop: '3px solid #833fb2', width:'50%'}}/>
-                        <p>I am also actively applying for jobs as a developer to utilize my skills and learn new ones too.
-                        </p>
+                        <p>I am actively applying for jobs as a Computer Science Engineer to utilize my skills and learn new ones too.</p>
+                        <hr style= {{borderTop: '2px solid #833fb2', width:'80%'}}/>
                     </Cell>
                 </Grid>
                 </Card>
