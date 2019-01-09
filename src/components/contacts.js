@@ -9,7 +9,7 @@ class Contacts extends Component {
                     <Cell col={6}>
                         <h2 style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
                         I'd love to hear from you.</h2>
-                        <h3 style={{color:'#54545c'}}>You can always reach out by<a href="android-app://com.google.android.gm/" rel="noopener noreferrer" target="_blank"><b style={{color:'black'}}> e-mail</b></a>. Or connect with me on <a href="https://www.instagram.com/shub4am/" rel="noopener noreferrer" target="_blank"><b style={{color:'black'}}>Instagram</b></a> or on <a href="https://www.linkedin.com/in/Shubham92101/" rel="noopener noreferrer" target="_blank"><b style={{color:'black'}}>Linkedin</b></a></h3>
+                        <h3 style={{color:'#54545c'}}>You can always reach out by <a href="android-app://com.google.android.gm/" rel="noopener noreferrer" target="_blank"><b style={{color:'black'}}> Email</b></a>. Or connect with me on <a href="https://www.instagram.com/shub4am/" rel="noopener noreferrer" target="_blank"><b style={{color:'black'}}>Instagram</b></a> or on <a href="https://www.linkedin.com/in/Shubham92101/" rel="noopener noreferrer" target="_blank"><b style={{color:'black'}}>Linkedin</b></a>.</h3>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -18,8 +18,8 @@ class Contacts extends Component {
 								<List>
 									<ListItem>
 										<ListItemContent style={{fontSize: '26px', fontFamily: 'Anton'}}>
-											<i className="fa fa-phone-square" aria-hidden="true"/>(Whatsapp)
-											+91 9905972742</ListItemContent>
+											<i className="fa fa-phone-square" aria-hidden="true"/>+919905972742 
+                                            (Whatsapp only)</ListItemContent>
 									</ListItem>
                                     <ListItem>
 										<ListItemContent style={{fontSize: '26px', fontFamily: 'Anton'}}>
