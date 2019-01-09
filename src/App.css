@@ -120,7 +120,8 @@ i.fa-twitter-square:hover{
 }
 
 .contact-grid {
-  overflow: auto;
+  
+  overflow-x: auto;
   text-align: center;
   justify-content: center;
   width: 80%;
@@ -148,7 +149,7 @@ i.fa-twitter-square:hover{
 }
 
 .contact-list i {
-  font-size: 65px;
+  font-size: 45px;
   padding-right: 5rem;
 }
 
@@ -160,7 +161,6 @@ i.fa-twitter-square:hover{
 }
 
 .about-body {
-  
   margin: auto;
   position: fixed;
   width: 100%;
